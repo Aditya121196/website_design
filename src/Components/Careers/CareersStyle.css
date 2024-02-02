@@ -1,0 +1,234 @@
+/*-------------------------------------------careers css start here-------------------------------------------------*/
+.careers-container {
+  padding-top: 90px;
+}
+
+.careers-header-section {
+  background: #1e1e1e;
+  color: white;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+  background-image: url(../../../public/assests/img/gears.png);
+}
+
+.careers-header-col {
+  margin: 4rem 0rem;
+  padding: 1.5rem 5rem;
+}
+
+.careers-header-col h1 {
+  font-family: League Spartan;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.careers-header-col p {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #D4D4D4;
+
+}
+
+.careers-header-col button {
+  background: #E2C15B;
+  color: #1E1E1E;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0.6rem 2.5rem;
+}
+
+@media (max-width: 767px) {
+  .careers-header-section {
+    background-image: none;
+  }
+
+  .careers-header-col {
+    margin: 2rem 0rem;
+    padding: 1rem 2rem;
+  }
+}
+
+/*-------------------------------------------careers css ends here-------------------------------------------------*/
+/*-------------------------------------------open position css start here-------------------------------------------------*/
+
+.open-positions-title {
+  font-family: League Spartan;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1B1B1B;
+}
+
+.position-col {
+  border-radius: 30px;
+  box-shadow: 1px 5px 10px rgba(0.5, 0.5, 0.5, 0.9);
+}
+
+.position-col h2 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.position-location {
+  color: #787878;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.apply-button {
+  font-weight: bold;
+  color: white;
+  background: #E2C15B;
+}
+
+/*-------------------------------------------open position css end here-------------------------------------------------*/
+
+/*-------------------------------------------Why Us media CSS Start here-------------------------------------------------*/
+
+.whyus-title {
+  font-family: League Spartan;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1B1B1B;
+}
+
+.why-joining {
+  color: #1B1B1B;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.whyUs-main-row p {
+  font-size: 22px;
+}
+
+.whyUs-card {
+  background: #E2C15B;
+  border-radius: 30px;
+  box-shadow: 1px 5px 10px rgba(0.5, 0.5, 0.5, 0.9);
+  position: relative;
+  max-height: 750px;
+  overflow: hidden;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+}
+
+.whyUs-card-content p {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.whyUs-card img {
+  width: 20px;
+  height: 20px;
+  float: right;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  transition: display 0.3s;
+}
+
+.whyUs-card:hover .whyUs-card-content p {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.whyUs-card:hover .whyUs-card img {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.whyUs-card:hover .whyUs-hover-content {
+  display: block;
+}
+
+.whyUs-hover-content {
+  display: none;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  margin-top: -12rem;
+  font-size: 13px;
+  font-weight: normal;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.whyUs-card:hover {
+  background: black;
+}
+
+.whyUs-card:hover .whyUs-hover-content {
+  opacity: 1;
+}
+
+/* .ClientReview-row h1{
+    font-size:30px ;
+  }  */
+
+.ClientReview-row h1 {
+  color: #000;
+  font-family: League Spartan;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 59.5px;
+}
+
+.ClientReview-row p {
+  font-size: 22px;
+}
+
+/* client Review Dots */
+
+/* .slick-slider .slick-dots li button {
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0.7;
+  margin: 0 5px;
+} */
+
+/* .slick-slider .slick-dots {
+  margin-bottom: -30px;
+} */
+
+/* .slick-slider .slick-dots li.slick-active button {
+  background-color: black;
+  opacity: 1;
+} */
+
+/* @keyframes OurClient-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */

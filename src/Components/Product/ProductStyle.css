@@ -1,0 +1,133 @@
+/*-------------------------------------------Products css start here-------------------------------------------------*/
+.products-container {
+  padding-top: 90px;
+}
+
+.products-row {
+  background: #1e1e1e;
+  color: white;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+  background-image: url(../../../public/assests/img/Proiteration-bro.png);
+}
+
+.products-col {
+  margin: 4rem 0rem;
+  padding: 1.5rem 5rem;
+}
+
+.products-col h1 {
+  font-family: League Spartan;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 67px;
+  word-spacing: 0.1em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.products-col p {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #D4D4D4;
+
+}
+
+.products-col button {
+  background: #e2c15b;
+  color: #1B1B1B;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 0.6rem 2.5rem;
+}
+
+@media (max-width: 767px) {
+  .products-row {
+    background-image: none;
+  }
+
+  .products-col {
+    margin: 2.5rem 0.5rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 767px) and (max-width:1024px) {
+  .products-row {
+    background-size: 70%;
+  }
+
+  .products-col {
+    margin: 1rem 0.5rem;
+    padding-left: 1rem;
+  }
+
+}
+
+
+
+/*-------------------------------------------Products css ends here-------------------------------------------------*/
+
+/*-------------------------------------------Our Products css start here-------------------------------------------------*/
+.ourproducts-title {
+  font-family: League Spartan;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0em;
+  color: black;
+}
+
+.ourproducts-card {
+  border-radius: 50px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.ourproducts-img {
+  width: 350px;
+  height: 70px;
+}
+
+.ourproducts-card-div p {
+  color: #292D32;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+
+}
+
+.ourproducts-list {
+  color: #292D32;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+
+
+.visit {
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0.8rem 3rem;
+  font-family: Lato;
+}
+
+
+
+/*-------------------------------------------Our Products css ends here-------------------------------------------------*/

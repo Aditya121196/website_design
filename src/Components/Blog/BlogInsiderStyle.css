@@ -1,0 +1,72 @@
+/* BlogInsider.css */
+
+.bloginsider-container {
+  padding-top: 90px;
+  max-width: 750px;
+  width: 100%;
+}
+
+.first-link {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.second-link {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+/*
+.bloginsider-container {
+   
+    margin-left: 350px;
+  }
+  
+  .bloginsider-row h1 {
+    padding-top: 100px;
+  }
+
+  .bloginsider-row b {
+    color: gray;
+  }
+
+  .bloginsider-row img {
+    width: 550px;
+    height: 250px;
+    margin: 3rem 0rem;
+  }
+
+  .bloginsider-row-content{
+    max-width: fit-content;
+    width: 85%;
+  }
+
+  .link-row{
+    width: 85%;
+    margin: 3rem 0rem;
+  }
+
+  .link-row img{
+    width: 270px;
+    height: auto;
+    border-radius: 30px;
+  }
+
+  .link-content{
+    margin-top: 15px;
+  }
+
+  .first-link{
+    text-decoration: none;
+    color: inherit;
+    padding-left: 0px;
+  }
+
+  .second-link{
+    text-decoration: none;
+    color: inherit;
+    padding-left: 10px;
+  }
+  */

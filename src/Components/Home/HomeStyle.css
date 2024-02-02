@@ -1,0 +1,446 @@
+/* ----------------------------Home page css start -------------------------------------------*/
+.home-container {
+  padding-top: 90px;
+}
+
+.home-row {
+  background: #1e1e1e;
+  color: white;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url(../../../public/assests/img/curveslines.svg);
+}
+
+.home-col h1 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 55px;
+}
+
+.home-col {
+  padding: 50px 20px;
+}
+
+.home-col h1,
+.home-col p,
+.home-col button {
+  margin: 20px 70px;
+}
+
+.home-col p {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #b0b0b0;
+}
+
+.home-col button {
+  background: #e2c15b;
+  color: #1B1B1B;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 0.6rem 2.5rem;
+}
+
+.home-col button:hover {
+  background: #e2c15b;
+  color: #1e1e1e;
+}
+
+@media (max-width: 767px) {
+  .home-row {
+    background-image: none;
+  }
+
+  .home-col {
+    padding: 0;
+  }
+
+  .home-col h1,
+  .home-col p,
+  .home-col button {
+    margin: 1rem 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+  .home-col h1,
+  .home-col p,
+  .home-col button {
+    margin: 20px 5px;
+  }
+}
+
+/* ----------------------------Home page css ends ---------------------------------------------------------------*/
+
+/* ----------------------------Home page - Our Services css starts  -------------------------------------------*/
+.ourgoals-row p {
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.ourgoals-fcol {
+  padding: 1rem;
+}
+
+.ourgoals-scol {
+  padding: 3rem;
+  /* Responsive me ispr kaam krna hai*/
+
+}
+
+.ourgoals-scol p {
+
+  color: #1B1B1B;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+  .ourgoals-scol {
+    padding: 1rem 0rem 0rem 2rem;
+  }
+}
+
+/*--------------------------------------------------------*/
+.ourservices-title {
+  font-family: League Spartan;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0em;
+}
+
+.ourservices-col {
+  display: inline-block;
+}
+
+.ourservices-col-div h2 {
+  color: #292D32;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+
+}
+
+.ourservices-col-div p {
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #292D32;
+
+
+}
+
+/* ----------------------------Home page - Our Services css ends  -------------------------------------------------------------*/
+
+/* ----------------------------Home page - Why css starts here -------------------------------------------------------------*/
+.home-why-container {
+  background: #1E1E1E;
+  border-radius: 60px;
+  color: white;
+}
+
+.home-why-title {
+  font-family: League Spartan;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+}
+
+.home-why-col h5 {
+  font-family: League Spartan;
+  font-size: 25px;
+  font-weight: 500;
+  color: #E9C85F;
+}
+
+.home-why-new {
+  margin-top: -40px;
+}
+
+.home-why-col p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ECECEC;
+}
+
+.home-why-stats {
+  background: #E9C85F;
+  border-radius: 40px;
+
+}
+
+.home-why-stats h1 {
+  color: black;
+  font-size: 50px;
+  font-family: League Spartan;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.why-technologies-scol h1 {
+  color: #000;
+  font-family: League Spartan;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 59.5px;
+}
+
+.why-technologies-scol p {
+  color: #292D32;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135.059%;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #4C4224, #937E3E);
+  background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+  font-size: 52px;
+  font-family: League Spartan;
+}
+
+@media (min-width: 768px) {
+  .border-md-right {
+    border-right: 1px solid #404040;
+    height: 200px;
+  }
+
+  .home-why-timg {
+    margin-top: -50px;
+    margin-bottom: 70px;
+  }
+
+  .home-why-stats h1 {
+    font-size: 40px;
+  }
+
+  .home-why-stats p {
+    font-size: 20px;
+  }
+}
+
+/* ----------------------------Home page - Why css ends here -------------------------------------------------------------*/
+
+/* ----------------------------Home page - Our client css starts here -------------------------------------------------------------*/
+
+.ourclient-heading {
+  font-family: League Spartan;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0em;
+
+}
+
+.ourclient-mainContainer {
+  border-radius: 60px;
+  box-shadow: 1px 5px 10px rgba(0.5, 0.5, 0.5, 0.9);
+}
+
+/* ----------------------------Home page - client Review css starts here -------------------------------------------------------------*/
+
+.ClientReview-row h1 {
+  color: #000;
+  font-family: League Spartan;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 59.5px;
+}
+
+.ClientReview-card {
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px rgba(0.5, 0.5, 0.5, 0.9);
+}
+
+.ClientReview-row p {
+  font-size: 22px;
+}
+
+/* client Review Dots */
+
+.slick-slider .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0.7;
+  margin: 0 5px;
+}
+
+.slick-slider .slick-dots {
+  margin-bottom: -30px;
+}
+
+.slick-slider .slick-dots li.slick-active button {
+  background-color: black;
+  opacity: 1;
+}
+
+@keyframes OurClient-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* ----------------------------Home page - client Review css ends here -------------------------------------------------------------*/
+
+/* ----------------------------Home page - client css starts here -------------------------------------------------------------*/
+.client-section {
+  padding-top: 100px;
+}
+
+.client-featured-section {
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.client-featured-section h1 {
+  font-size: 40px;
+}
+
+.client-featured-section h3 {
+  font-size: 30px;
+}
+
+.client-featured-section p {
+  font-size: 25px;
+}
+
+.client-featured-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.client-featured-content-item {
+  text-decoration: none;
+  color: inherit;
+}
+
+.client-featured-content-item h4 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1B1B1B;
+}
+
+.client-featured-content-item p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #787878;
+}
+
+.client-img {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.client-card-content {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.client-contact-section {
+  background: #E9C85F;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-contact-heading {
+  font-family: League Spartan;
+  font-size: 37px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+}
+
+/* .client-contact-button {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.8rem 2.5rem;
+  text-align: center;
+} */
+
+
+.client-contact-button:hover {
+  background: #1e1e1e;
+  color: white;
+}
+
+/* ----------------------------Home page - client css ends here -------------------------------------------------------------*/
+
+div.modal-content {
+  border-radius: 50px;
+}
+
+
+.form-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-group.contacts-form-group input {
+  background: #F5F5F5;
+}
+
+.form-group.contacts-form-group button {
+  background: #E2C15B;
+  color: white;
+  font-weight: bold;
+}
+
+.custom-placeholder::placeholder {
+  color: #9F9F9F;
+}

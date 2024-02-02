@@ -1,0 +1,134 @@
+/*----------------------------------------- Footer Page CSS Start Here -------------------------------------- */
+.footer {
+  background: #1E1E1E;
+  color: white;
+}
+
+.footer-logo p {
+  font-size: 10px;
+  color: whitesmoke;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-input {
+  border-radius: 5px;
+}
+
+.footer i {
+  margin: 0 0.5rem;
+}
+
+/*----------------------------------------- Footer Page CSS Ends Here -------------------------------------- */
+
+/* ---------------------------------------- Footer Page - Media Query For 576 Start Here -------------------------------------- */
+
+@media (max-width: 576px) {
+  .footer-logo img {
+    width: 200px;
+    height: auto;
+  }
+
+  .footer-logo,
+  .footer-quick,
+  .col-md-4.py-4 {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .footer-description {
+    font-size: 14px;
+  }
+
+  .footer-quick h5 {
+    font-size: 18px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  .footer-copy {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+
+}
+
+
+/* ---------------------------------------- Footer Page - Media Query For 576 Ends Here -----------------------------------------*/
+
+/*----------------------------------------- Footer Page - Media Query For 768 starts Here -------------------------------------- */
+@media (max-width: 768px) {
+
+  .footer-logo,
+  .footer-quick,
+  .col-md-4.py-4 {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .footer-description {
+    font-size: 14px;
+  }
+
+  .footer-quick h5 {
+    font-size: 18px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  .footer-copy {
+    margin-left: 0;
+    font-size: 14px;
+  }
+}
+
+/*----------------------------------------- Footer Page - Media Query For 768 Ends Here -------------------------------------- */
+
+/*----------------------------------------- Footer Page - Media Query For 992 Starts Here ------------------------------------ */
+@media (max-width: 992px) {
+
+  .footer-logo,
+  .footer-quick,
+  .col-md-4.py-4 {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .footer-description {
+    font-size: 14px;
+  }
+
+  .footer-quick h5 {
+    font-size: 18px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  .footer-copy {
+    margin-left: 0;
+    font-size: 14px;
+  }
+}
+
+/*----------------------------------------- Footer Page - Media Query For 992 Ends Here -------------------------------------- */

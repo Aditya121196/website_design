@@ -1,0 +1,70 @@
+/*----------------------------------------- Contact Page CSS Start Here -------------------------------------- */
+.contacts {
+  padding-top: 90px;
+}
+
+.contacts-main {
+  background: #1E1E1E;
+  color: #FFFFFF;
+  ;
+}
+
+.contacts-main-div {
+  padding: 4rem 0 0 5rem
+}
+
+.contacts-main-div h1 {
+  font-family: League Spartan;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contacts-main-div p {
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #D4D4D4;
+}
+
+.contacts-info p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1B1B1B;
+}
+
+.form-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contacts-form input {
+  background: #F5F5F5;
+}
+
+.contacts-form button {
+  background: #E2C15B;
+  color: white;
+  font-weight: bold;
+}
+
+.custom-placeholder::placeholder {
+  color: #9F9F9F;
+}
+
+/*----------------------------------------- Contact Page CSS ends Here -------------------------------------- */
+
+@media (max-width: 992px) {
+  .contacts-main-div {
+    padding: 1rem;
+  }
+}
